@@ -1,6 +1,6 @@
-## Welcome
+## Welcome sh toolkit for nodejs
 
-This project enable a way to redirect file read path based on fishhook and DYLD library hook.
+This project enable a way to redirect file read path for nodejs. which based on fishhook and DYLD library hook. It have been used in test automation situation.
 
 fishhook is a very simple library that enables dynamically rebinding symbols in Mach-O binaries running on iOS in the simulator and on device. This provides functionality that is similar to using DYLD_INTERPOSE on OS X. At Facebook, we've found it useful as a way to hook calls in libSystem for debugging/tracing purposes (for example, auditing for double-close issues with file descriptors).
 
